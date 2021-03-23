@@ -1,0 +1,57 @@
+1. There are 3 labs in the CSE department(L1, L2 and L3) with different seating capacities. A single lab needs to be allocated to a class of 'n' students. The labs need to be utilized to the maximum i.e the number of systems that are not being used should be minimal. Which lab needs to be allocated to this class? 
+The input consists of four numbers separated by comma where first three are seating capacity of Labs L1,L2 and L3 and fourth input is number of trainees.  
+If more than one lab satisfies the condition, print all the labs. If none of the lab satisfies the condition, print "No labs" 
+Sample Input1 30,40,20,25  
+Sample Output1 Lab - L1  
+Sample Input2 30,30,30,25  
+Sample Output2 Lab - L1,L2,L3  
+Sample Input3 40,30,40,55  
+Sample Output3 No labs  
+---------------------------------------------------------------------------------------------------------------
+2. There are two arrays of similar length taken as user input. WAP to generate a new array by raising each element from x position of first array to the element present in the same position of the second array.  
+If any of the elements is negative, print "invalid input" and terminate the program.  
+Sample Input1 
+4 9 7 8 
+2 4 3 1  
+Sample Output1 
+16 6561 343 8  
+Sample Input2 
+1 0 2 4 
+1 -5 3 2 
+ Sample Output2 
+invalid input 
+--------------------------------------------------------------------------------------------------------------
+3. A cash dispenser can dispense currency notes of valuation 2000,500,200,100. It should be configured to dispense minimal number of currency notes. Write a program to help me on this. Assume amount will be given as multiple of 100.  
+Sample Input 4500 
+Sample Output 2000 2 500 1  
+Sample Input 3700 
+Sample Output 2000 1 500 3 200 1  
+-------------------------------------------------------------------------------------------------------------
+4. You have two set of numbers as input. Write a program to display the nth number from the first array mth times as present in the same position of the second array.  
+Sample Input 
+4 9 1 3 
+2 3 3 1 
+Sample Output 4 4 9 9 9 1 1 1 3  
+Sample Input 
+2 5 0 1 
+1 0 2 4 
+Sample Output 2 0 0 1 1 1 1   
+----------------------------------------------------------------------------------------------------------
+5. Write a program to print the series 
+6 20 8 14 10 8 12 ... User inputs the number of elements to be printed.   
+Sample Input 4 
+Sample Output
+ 6,20,8,14  
+-------------------------------------------------------------------------------------------------------------
+6. Given two set of numbers as input, generate the new array such that first element of first set is multiplied by last element of second set, second element of first set is multiplied by second last element of second set and then each element of it is reversed.  
+Sample Input
+ 2 5 2 1 
+ 9 8 4 6 
+Sample Output 
+21 2 61 9  
+Sample Input 
+2 5 32 1 
+19 3 7 3 
+Sample Output 
+6 53 69 91 
+-------------------------------------------------------------------------------------------------------
